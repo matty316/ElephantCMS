@@ -8,5 +8,8 @@
             "name": "Matthew Reed",
             "email": "mattreed1890@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "phpunit/phpunit": "4.3.x-dev"
+    }
 }
