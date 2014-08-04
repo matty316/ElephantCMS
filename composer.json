@@ -1,0 +1,12 @@
+{
+    "name": "lilzoo/elephantCMS",
+    "description": "Simple CMS built in php",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Reed",
+            "email": "mattreed1890@gmail.com"
+        }
+    ]
+}
