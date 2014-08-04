@@ -6,8 +6,8 @@
  * Time: 9:53 PM
  */
 
-require "config/config.php";
-require "config/database.php";
+require __DIR__ . "/config/config.php";
+require __DIR__ . "/config/database.php";
 
 $db = connect();
 
