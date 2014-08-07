@@ -10,6 +10,6 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "4.3.x-dev"
+        "phpunit/phpunit": "3.7"
     }
 }

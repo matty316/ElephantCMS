@@ -10,5 +10,9 @@ require __DIR__ . "/config/config.php";
 require __DIR__ . "/config/database.php";
 
 $db = connect();
+include __DIR__ . "inc/header.php";
+?>
 
-var_dump($db);
+
+
+<?php include __DIR__ . "inc/footer.php" ?>

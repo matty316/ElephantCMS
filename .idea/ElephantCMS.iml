@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
+  <component name="CompassSettings">
+    <option name="compassExecutableFilePath" value="$USER_HOME$/.rbenv/versions/2.0.0-p353/lib/ruby/gems/2.0.0/gems/compass-0.12.2/bin/compass" />
+    <option name="compassSupportEnabled" value="true" />
+  </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/ocramius/instantiator" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/ocramius/lazy-map" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-code-coverage" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-file-iterator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
@@ -12,11 +14,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpunit/phpunit-mock-objects" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/comparator" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/diff" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/environment" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/exporter" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/version" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/yaml" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -34,43 +31,30 @@
     <orderEntry type="module-library">
       <library name="PHP">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/ocramius/instantiator" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-timer" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
-          <root url="file://$MODULE_DIR$/vendor/ocramius/lazy-map" />
-          <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/environment" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-code-coverage" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-file-iterator" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit-mock-objects" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/exporter" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/diff" />
+          <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/comparator" />
+          <root url="file://$MODULE_DIR$/vendor/phpunit/php-file-iterator" />
+          <root url="file://$MODULE_DIR$/vendor/phpunit/php-code-coverage" />
+          <root url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/ocramius/instantiator" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/php-timer" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
-          <root url="file://$MODULE_DIR$/vendor/ocramius/lazy-map" />
-          <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/version" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/environment" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-code-coverage" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-file-iterator" />
-          <root url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
           <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit-mock-objects" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/exporter" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/diff" />
+          <root url="file://$MODULE_DIR$/vendor/phpunit/phpunit" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/vendor/phpunit/php-text-template" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
-          <root url="file://$MODULE_DIR$/vendor/sebastian/comparator" />
+          <root url="file://$MODULE_DIR$/vendor/phpunit/php-file-iterator" />
+          <root url="file://$MODULE_DIR$/vendor/phpunit/php-code-coverage" />
+          <root url="file://$MODULE_DIR$/vendor/phpunit/php-token-stream" />
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="compass-library" level="project" />
   </component>
 </module>
 
