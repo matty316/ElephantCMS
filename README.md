@@ -7,6 +7,6 @@ I'm building this mostly for learning purposes. The world really doesn't need an
 
 Planned Features
 ================
-Markdown
-Sass
-Twig
+* Markdown
+* Sass
+* Twig
