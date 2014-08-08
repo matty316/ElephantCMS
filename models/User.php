@@ -38,6 +38,10 @@ class User {
         } elseif (preg_match("/^[a-zA-Z0-9_-]{3,16}$/", $this->username) === 0) {
             $this->message = "A username can consist of letters, numbers, dashes and underscores.";
             return false;
+        } elseif ($this->emailUnique()) {
+
+        } elseif ($this->usernameUnique()) {
+
         } else {
             // TODO Save to database
             $this->message = "Account Created!";
@@ -71,6 +75,16 @@ class User {
     public static function authenticate() {
         // TODO Implement method
         //
+    }
+
+    private function emailUnique()
+    {
+        // TODO Dat implementation
+    }
+
+    private function usernameUnique()
+    {
+        // TODO Thotwalk
     }
 
 } 

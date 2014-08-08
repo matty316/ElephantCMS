@@ -55,7 +55,21 @@ class UserTest extends \PHPUnit_Framework_TestCase {
         $this->assertEquals("A username can consist of letters, numbers, dashes and underscores.", $this->user->getMEssage());
     }
 
+    function testValidWithUppercaseUsername() {
+        // TODO Implement
+    }
 
+    function testValidWithUppercaseEmail() {
+        // TODO Implement this boi
+    }
+
+    function testEmailUniqueness(){
+        // TODO get dat yung test
+    }
+
+    function testUsernameUniqueness() {
+        // TODO implement that ass
+    }
 
     function tearDown() {
         unset($this->user);
